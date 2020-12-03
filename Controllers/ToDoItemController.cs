@@ -29,6 +29,12 @@ namespace FirstWebApiApp.Controllers
             }
             catch(Exception ex)
             {
+
+
+
+
+
+
                 return new NotFoundObjectResult(new { message = ex.Message, statusCode = HttpStatusCode.InternalServerError });
             }
         }
