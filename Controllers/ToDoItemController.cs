@@ -29,6 +29,18 @@ namespace FirstWebApiApp.Controllers
             }
             catch(Exception ex)
             {
+
+
+
+
+
+
+
+
+
+
+
+
                 return new NotFoundObjectResult(new { message = ex.Message, statusCode = HttpStatusCode.InternalServerError });
             }
         }
@@ -40,6 +52,10 @@ namespace FirstWebApiApp.Controllers
         {
             try
             {
+
+
+
+
 
                 ToDoItem response_repo = await toDoRepository.getItemById(id);
               
