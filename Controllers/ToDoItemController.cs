@@ -24,9 +24,6 @@ namespace FirstWebApiApp.Controllers
         {
             try
             {
-
-
-
                 List<ToDoItem> reponse_repo = await toDoRepository.getAllItems();
                 return new ObjectResult(new { message = "success", statusCode = HttpStatusCode.OK, response = reponse_repo });
             }
