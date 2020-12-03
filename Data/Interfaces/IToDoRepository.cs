@@ -16,7 +16,5 @@ namespace FirstWebApiApp.Data.Interfaces
 
 
 
-
-
     }
 }
